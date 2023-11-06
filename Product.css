@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0,28,36);
+    background: linear-gradient(90deg, rgba(0,28,36,1) 0%, rgba(9,96,121,1) 100%, rgba(3,20,31,0.6560749299719888) 100%);
+    align-items: center;
+    padding: 25px;
+}
+#header img{
+    width: 250px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    display: flex;
+    margin: 20px; 
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.mobile{
+    display: none;
+}
+.close{
+    display: none;
+}
+/* Hover Header*/
+.navbar a:hover{
+    color: grey;
+    font-size: 19px;
+}
+#header img:hover{
+    width: 300px;
+}
+
+.aboutprod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 800;
+    background-image: url(img/flat-lay-spices-frame-with-copy-space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -500px;
+    opacity: .8;
+    height: 55vh;
+    color: rgb(255, 255, 255);
+}
